@@ -1,0 +1,244 @@
+
+
+#bottom-music-player{
+	width: 100%;
+	height: auto;
+	padding: 16px 0;
+	position: fixed;
+	bottom: 0;
+	display: none;
+}
+
+.bottom-class{
+	min-height: 80px;
+}
+
+#bottom-music-player:target{
+	display: flex;
+}
+
+
+/*Left Content*/
+#left-content-container{
+	height: 100%;
+	flex-grow: 1; 
+	padding-left: 16px; 
+	max-width: 400px;
+	min-width: 400px;
+}
+
+#left-content-container-child{
+	display: flex;
+	flex-direction: row;
+	width: auto;
+}
+
+#current-song-img{
+	height: 80px;
+	width: 80px;
+	background-position: center;
+	background-size: cover;
+}
+
+#current-song-info{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: baseline;
+	margin-left: 16px;
+	padding-top: 16px;
+}
+
+#song-name-artist{
+	margin-right: 10px;
+}
+
+#song-name-artist #p1{
+	font-size: 1.5em;
+}
+#song-name-artist #p2{
+	font-size: 1em;
+}
+
+#song-like-share i.fa-heart, i.fa-thumbs-down{
+	font-size: 1.2em;
+	margin-right: 10px;
+}
+
+#song-like-share i.fa-thumbs-down{
+	color: white;
+}
+
+#song-like-share i.fa-heart:hover{
+	color: gold;
+}
+#song-like-share i.fa-heart:hover #like-tooltip{
+	visibility: visible;
+}
+#song-like-share i.fa-thumbs-down:hover #dislike-tooltip{
+	visibility: visible;
+}
+#song-like-share i.fa-thumbs-down:hover{
+	color: red;
+}
+
+/*Center Content*/
+#center-content{
+	flex-grow: 2; 
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 0px 16px;
+}
+
+#music-player-controls{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	width: 80%;
+}
+
+#play-pause{
+	height: 60%; 
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#play-pause i.fa-random,
+#play-pause i.fa-forward,
+#play-pause i.fa-backward, 
+#play-pause i.fa-pause-circle, 
+#play-pause i.fa-redo{
+	transition: ease 0.3s;
+	margin: 0px 10px;
+	
+} 
+
+#play-pause i.shadow-hover:hover{
+	text-shadow: 0px 0px 15px rgba(255,255,100,1);
+}
+
+#play-pause i.fa-random, #play-pause i.fa-redo{
+	font-size: 1.01em;
+} 
+
+#play-pause i.fa-forward,
+#play-pause i.fa-backward{
+	font-size: 1.2em;
+} 
+
+#play-pause i.fa-pause-circle:not(.tooltiptext){
+	font-size: 2em;
+	/* color: white; */
+}
+
+.tooltiptext{
+	font-size: 1em;
+}
+#like-tooltip, #dislike-tooltip, #backward-tooltip, #forward-tooltip, #shuffle-tooltip, #redo-tooltip, #play-pause-tooltip{
+	font-weight: 800;
+}
+#hide-tooltip{
+	right: 5%;
+	font-size: 0.8em;
+}
+
+#eq-tooltip{
+	font-size: 0.8em;
+}
+
+#like-tooltip, #dislike-tooltip{
+	font-size: 0.8em;
+}
+
+#backward-tooltip, #forward-tooltip{
+	font-size: 0.7em;
+}
+#shuffle-tooltip, #redo-tooltip{
+	font-size: 0.8em;
+}
+#play-pause-tooltip{
+	font-size: 0.5em;
+}
+
+#sound-progress{
+	height: 40%; 
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+	margin-top: 16px;
+}
+
+#sound-progress p{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 0.8em;
+}
+#sound-progress input{
+	width: 70%;
+	margin: 0 10px 0 10px;
+}
+
+#play-pause i.fa-random:hover #shuffle-tooltip,
+#play-pause i.fa-backward:hover #backward-tooltip,
+#play-pause i.fa-forward:hover #forward-tooltip,
+#play-pause i.fa-pause-circle:hover #play-pause-tooltip,
+#play-pause i.fa-redo:hover #redo-tooltip{
+	visibility: visible;
+}
+
+/*Right Content************************************/
+#right-content{
+	min-height: 80px;
+	flex-grow: 1; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 400px;
+	min-width: 400px;
+}
+
+#right-div-inner{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+#right-div-inner i.fa-sliders-h{
+	margin-right: 10px;
+}
+
+#right-div-inner i.fa-eye-slash{
+	margin-left: 16px;
+}
+
+.tooltiptext{
+	visibility: hidden;
+	width: 80px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	display: flex;
+	font-size: 1em;
+	justify-content: center;	
+	position: absolute;
+	z-index: 1;
+}
+	
+#right-div-inner i.fa-sliders-h:hover #eq-tooltip{
+	visibility: visible;
+}
+
+#right-div-inner i.fa-eye-slash:hover span{
+	visibility: visible;
+}
+

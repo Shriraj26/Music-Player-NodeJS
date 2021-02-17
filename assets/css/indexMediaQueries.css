@@ -1,0 +1,345 @@
+/* 
+@media only screen and (max-width: 1600px){
+	/* #main-image-div{
+		height: 40vh;
+	}  */
+@media only screen and (max-width: 1420px){
+	
+	/*main image*/
+	#main-image-div{
+		height: 30vh;
+	}
+
+	#main-image-div p{
+		font-size: 2em;
+	}
+
+	#main-image-div #p1{
+		font-size: 1.5em;
+	}
+
+	#main-image-div #p2{
+		font-size: 1em;
+	}
+	#buttons-like-favourite{
+		margin-bottom: 1em;
+	}
+	.round-button{
+		height: 25px;
+		width: 50px;
+		font-size:10px;
+	}
+
+
+	/*top4 text*/
+	#top-four-images-text h1{
+		font-size: 4em;
+	}
+
+	/*latest eng, hindi, artists heading*/
+	.secondary-font{
+		font-size: 3em;
+	}
+	
+	#top-four-imgs-div{
+		justify-content: space-around; 
+		/* height: 20vh; */
+	}
+
+	.top-four-img-class{
+		height: 150px;
+		width: 150px;
+	}
+
+	.top-four-img-class i.fa-play{
+		font-size: 50px;
+	}
+
+	.latest-release-img-container-small{
+		
+		height: 50px;
+		width: 150px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+
+	.img-container-div p{
+		font-size: 1em;
+	}
+	.lrelease-img-parent{
+
+		width: 50px;
+		/* height: 100%;
+		overflow: hidden;  */
+	}
+
+	.lrelease-img-child i.fa-play{
+		font-size: 10px;
+	}
+
+	.song-info-div p{
+		margin-left: 10px;
+	}
+	
+	.song-info-div .p1{
+		font-weight: bold;
+		font-size: 0.8em;
+	}
+	
+	.song-info-div .p2{
+		font-size: 0.6em;
+	}
+	
+	.song-info-div .p3{
+		font-size: 0.4em;
+	}
+	
+	
+	.three-dots{
+		margin-top: 10px;
+		font-size: 0.4em;
+	}
+
+	/*artists*/
+	#artists-img-id p{
+		font-size: 0.8em;
+		margin-bottom: 10px;
+	}
+}	
+
+@media only screen and (max-width: 1152px){
+	#main-image-div{
+		height: 25vh;
+	}
+}	
+
+@media only screen and (max-width: 690px){
+	/*main image*/
+	#main-image-div{
+		height: 20vh;
+	}
+
+	#main-image-div p{
+		font-size: 1.5em;
+	}
+
+	#main-image-div #p1{
+		font-size: 1em;
+	}
+
+	#main-image-div #p2{
+		font-size: 0.5em;
+	}
+	#buttons-like-favourite{
+		margin-bottom: 1em;
+	}
+	.round-button{
+		height: 25px;
+		width: 50px;
+		font-size:10px;
+	}
+	
+	/*top4 text*/
+	#top-four-images-text h1{
+		font-size: 3em;
+	}
+
+	/*latest eng, hindi, artists heading*/
+	.secondary-font{
+		font-size: 2em;
+	}
+	
+	/* #top-four-imgs-div{
+		justify-content: space-around; 
+		/* height: 20vh; */
+	 
+
+	.top-four-img-class{
+		height: 100px;
+		width: 100px;
+	}
+
+	.top-four-img-class i.fa-play{
+		font-size: 25px;
+	}
+
+	.latest-release-img-container-small{
+		
+		height: 50px;
+		width: 150px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+
+	.img-container-div p{
+		font-size: 0.6em;
+	}
+	.lrelease-img-parent{
+
+		width: 30px;
+		height: 30px;
+		/* height: 100%;
+		overflow: hidden;  */
+	}
+
+	.lrelease-img-child i.fa-play{
+		font-size: 5px;
+	}
+
+	.song-info-div{
+		display: flex;
+		align-items: flex-start;
+	}
+	.song-info-div p{
+		margin-left: 5px;
+	}
+	
+	.song-info-div .p1{
+		font-weight: bold;
+		font-size: 0.6em;
+	}
+	
+	.song-info-div .p2{
+		font-size: 0.4em;
+	}
+	
+	.song-info-div .p3{
+		font-size: 0.3em;
+	}
+	
+	
+	.three-dots{
+		margin-top: 10px;
+		font-size: 0.3em;
+	}
+
+	/*artists*/
+	#artists-img-id p{
+		font-size: 0.8em;
+		margin-bottom: 10px;
+	}
+
+	.artist-img-div-class{
+		height: 80px;
+		width: 80px;
+	}
+
+	/*generes*/
+	.generes-small-divs{
+		height: 60px;
+		width: 160px;
+	}
+}
+
+@media only screen and (max-width: 490px){
+	/*main image*/
+	#main-image-div{
+		height: 15vh;
+	}
+
+	#main-image-div p{
+		font-size: 1em;
+	}
+
+	#main-image-div #p1{
+		font-size: 0.5em;
+	}
+
+	#main-image-div #p2{
+		font-size: 0.3em;
+	}
+	#buttons-like-favourite{
+		margin-bottom: 0.5em;
+	}
+	.round-button{
+		height: 15px;
+		width: 30px;
+		font-size:5px;
+	}
+	
+	/*top4 text*/
+	#top-four-images-text h1{
+		font-size: 2em;
+	}
+
+	/*latest eng, hindi, artists heading*/
+	.secondary-font{
+		font-size: 1em;
+	}
+	
+	.top-four-img-class{
+		height: 50px;
+		width: 50px;
+	}
+
+	.top-four-img-class i.fa-play{
+		font-size: 15px;
+	}
+
+	.latest-release-img-container-small{
+		
+		height: 50px;
+		width: 100px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+
+	.img-container-div p{
+		font-size: 0.4em;
+	}
+	.lrelease-img-parent{
+
+		width: 30px;
+		height: 30px;
+		/* height: 100%;
+		overflow: hidden;  */
+	}
+
+	.lrelease-img-child i.fa-play{
+		font-size: 5px;
+	}
+
+	.song-info-div{
+		display: flex;
+		align-items: flex-start;
+	}
+	.song-info-div p{
+		margin-left: 5px;
+	}
+	
+	.song-info-div .p1{
+		font-weight: bold;
+		font-size: 0.4em;
+	}
+	
+	.song-info-div .p2{
+		font-size: 0.3em;
+	}
+	
+	.song-info-div .p3{
+		font-size: 0.3em;
+	}
+	
+	
+	.three-dots{
+		margin-top: 10px;
+		font-size: 0.3em;
+	}
+
+	/*artists*/
+	#artists-img-id p{
+		font-size: 0.8em;
+		margin-bottom: 10px;
+	}
+
+	.artist-img-div-class{
+		height: 60px;
+		width: 60px;
+	}
+
+	/*generes*/
+	.generes-small-divs{
+		height: 40px;
+		width: 140px;
+	}
+}

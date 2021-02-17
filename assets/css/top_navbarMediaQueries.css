@@ -1,0 +1,85 @@
+/*Media Queries***************************/
+
+@media only screen and (max-width: 795px){
+	
+	#navbar-section{
+		height: 2em;
+	}
+	
+	#inner-navbar-div{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	#inner-navbar-div input{
+		height: 20px;
+		font-size: 10px;
+		background-size: 10px;
+	}
+
+	
+	.notification-bell{
+		height: 20px;
+		width: 20px;
+	}
+
+	#profile-pic-id{
+		height: 20px;
+		width: 20px;
+		margin-left: 10px;
+	}
+
+	/*Theme switcher*/
+	#inner-navbar-div p{
+		font-size: 0.8em;
+	}
+}	
+
+@media only screen and (max-width: 500px){
+	#navbar-section{
+		height: 1.5em;
+	}
+	
+	#inner-navbar-div input{
+		height: 15px;
+		font-size: 5px;
+		background-size: 5px;
+	}
+
+	/* #inner-navbar-div  */
+
+	.notification-bell{
+		height: 15px;
+		width: 15px;
+	}
+
+	#profile-pic-id{
+		height: 15px;
+		width: 15px;
+		
+	}
+	#inner-navbar-div p{
+		font-size: 0.7em;
+	}
+}
+
+@media only screen and (max-width: 430px){
+	#navbar-section{
+		height: 1.5em;
+	}
+	#inner-navbar-div input{
+		height: 8px;
+		font-size: 3px;
+		background-size: 5px; 
+	}
+	.notification-bell{
+		height: 8px;
+		width: 8px;
+	}
+
+	#profile-pic-id{
+		height: 8px;
+		width: 8px;
+		margin-left: 5px;
+	}
+
+}

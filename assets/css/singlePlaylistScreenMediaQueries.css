@@ -1,0 +1,171 @@
+/*Media Queries*********************/
+
+@media only screen and (max-width: 972px){
+	#playlist-info h1{
+		font-size: 2.5em;
+	}
+	#playlist-info #p2{
+		font-size: 0.8em;
+	}
+	#playlist-image-div{
+		height: 40vh;
+	}
+
+	#buttons-like-favourite{
+		bottom: 5%;
+	}
+
+	#buttons-like-favourite button{
+		height: 30px;
+	}
+
+	#buttons-like-favourite i.fa-bookmark, #buttons-like-favourite i.fa-share-alt{
+		font-size: 30px;
+	}
+
+	.hover-prop p, .hover-prop .p5, .hover-prop .p6{
+		font-size: 0.7em;
+	}
+
+	.song-heading p{
+		font-size: 0.8em;
+	}
+}
+
+@media only screen and (max-width: 795px){
+	
+
+	#below-navbar{
+		padding: 10px;
+		height: 100vh;
+	}
+	#playlist-info h1{
+		font-size: 2em;
+	}
+	#playlist-info #p1{
+		font-size: 0.7em;
+	}
+	#playlist-info #p2{
+		font-size: 0.6em;
+	}
+	#playlist-image-div{
+		height: 25vh;
+	}
+
+	#buttons-like-favourite{
+		bottom: 5%;
+		
+	}
+
+	#buttons-like-favourite button{
+		height: 15px;
+		width: 50px;
+		border-radius: 3px;
+	}
+
+	#buttons-like-favourite i.fa-bookmark, #buttons-like-favourite i.fa-share-alt{
+		font-size: 15px;
+		/* margin-right: 1px; */
+	}
+	#buttons-like-favourite p{
+		font-size: 10px;
+	}
+
+	#song-title-img{
+		height: 25px;
+		width: 25px;
+	}
+
+	.hover-prop p{
+		font-size: 0.6em;
+	}
+
+	.hover-prop .p5, .hover-prop .p6, #song-title-img i.fa-play{
+		font-size: 0.6em;
+	} 
+}
+
+@media only screen and (max-width: 600px){
+	#playlist-info h1{
+		font-size: 1em;
+	}
+	#playlist-info #p1{
+		font-size: 0.6em;
+	}
+	#playlist-info #p2{
+		font-size: 0.4em;
+	}
+	#playlist-image-div{
+		height: 20vh;
+	}
+
+	#buttons-like-favourite{
+		bottom: 5%;
+		display: flex;
+		justify-content: center;
+	}
+
+	#buttons-div a{
+		padding-top: 0;
+	}
+	#buttons-like-favourite button{
+		height: 15px;
+		width: 40px;
+		border-radius: 2px;
+	}
+
+	#buttons-like-favourite i.fa-bookmark, #buttons-like-favourite i.fa-share-alt{
+		font-size: 10px;
+		/* margin-right: 1px; */
+	}
+	#buttons-like-favourite p{
+		font-size: 5px;
+	}
+
+	.hover-prop p, .hover-prop .p5, .hover-prop .p6{
+		font-size: 0.6em;
+	}
+
+	.song-heading p{
+		font-size: 0.7em;
+	}
+
+	.hover-prop p, .hover-prop .p5, .hover-prop .p6{
+		font-size: 0.6em;
+	}
+
+	.song-heading p{
+		font-size: 0.7em;
+	}
+}
+
+@media only screen and (max-width: 430px){
+	#below-navbar{
+		/* width: 500vw;
+		overflow: hidden;
+		*/
+
+		padding-left: 5px; 
+		padding-right: 5px;
+	}
+	
+}	
+@media only screen and (max-width: 400px){
+	#playlist-info h1{
+		font-size: 0.8em;
+	}
+	#playlist-info #p1{
+		font-size: 0.4em;
+	}
+	#playlist-info #p2{
+		font-size: 0.2em;
+	}
+
+	.hover-prop p, .hover-prop .p5, .hover-prop .p6{
+		font-size: 0.5em;
+	}
+
+	.song-heading p{
+		font-size: 0.6em;
+	}
+}

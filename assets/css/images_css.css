@@ -1,0 +1,191 @@
+/*This css has all the images to be used in the html page*/
+
+/*home page images********************************************************************************/
+#main-image-div{
+	background-image: url("../img/main_img/linkinPark.jpg");
+}
+
+/*top 4 images in highlight*/
+#img1{
+	background-image: url("../img/top_four_images/dj_snakeOrg.jpg");
+}
+
+#img2{
+	background-image: url("../img/top_four_images/edmOrg.jpg");
+	
+}
+
+#img3{
+	background-image: url("../img/top_four_images/eminemOrg.jpg");
+		
+}
+
+#img4{
+	background-image: url("../img/top_four_images/imagine_dragons.jpg");
+		
+}
+
+/*latest releases songs images*/
+#ed-afterglow{
+	background-image: url("../img/latest_releases/Ed_Sheeran_Afterglow.png");
+}
+
+#jb-anyone{
+	background-image: url("../img/latest_releases/JB_Anyone.png");
+}
+
+#bts-lifegoeson{
+	background-image: url("../img/latest_releases/bts_lifegoeson.jpg");
+}
+
+#coldplay-flags{
+	background-image: url("../img/latest_releases/coldplay_flags.jpg");
+}
+
+#ariana-positions{
+	background-image: url("../img/latest_releases/Ariana_grande_positions.png");
+}
+
+#taylor-willow{
+	background-image: url("../img/latest_releases/Taylor_Swift_Willow.png");
+}
+
+#armaan-howmany{
+	background-image: url("../img/latest_releases/armaan_malik_howmany.jpg");
+}
+
+#shawn-wonder{
+	background-image: url("../img/latest_releases/shawn_mendes_wonder.png");
+}
+
+/*artists*/
+#avicii-img{
+	background-image: url("../img/artists/aviciiOrg.jpg");
+}
+
+#bruno-img{
+	background-image: url("../img/artists/brunoOrg.jpg");
+}
+
+#coldplay-img{
+	background-image: url("../img/artists/coldplayOrg.jpg");
+}
+
+#drake-img{
+	background-image: url("../img/artists/drakeOrg.jpg");
+}
+
+#edSheeran-img{
+	background-image: url("../img/artists/edOrg.jpg");
+}
+
+#harry-img{
+	background-image: url("../img/artists/harryOrg.jpg");
+}
+
+#justin-img{
+	background-image: url("../img/artists/justinOrg.jpg");
+}
+
+#marshmellow-img{
+	background-image: url("../img/artists/marshOrg.jpg");
+}
+
+#selena-img{
+	background-image: url("../img/artists/selenaOrg.jpg");
+}
+
+#shakira-img{
+	background-image: url("../img/artists/shakOrg.jpg");
+}
+
+
+/*latest english*/
+#justin_holy{
+	background-image: url("../img/ENG/jb_holy.png");
+}
+
+#camilla_havanna{
+	background-image: url("../img/ENG/camilla_havanna.png");
+}
+
+#old_town_road{
+	background-image: url("../img/ENG/oldTownOrg.jpg");
+}
+
+#weeknd_blinding_lights{
+	background-image: url("../img/ENG/weeknd_blinding_lightsOrg.jpg");
+}
+
+#ariana_side_to_side{
+	background-image: url("../img/ENG/arianna_side_to_side.jpg");
+}
+
+#watermellon_sugar{
+	background-image: url("../img/ENG/wmsugarOrg.jpg");
+}
+
+#dua_levitating{
+	background-image: url("../img/ENG/dua_levitatingOrg.png");
+}
+
+#maroon5_memories{
+	background-image: url("../img/ENG/maroon5_memoriesOrg.jpg");
+}
+
+/*latest hindi*/
+#divine_kohinoor{
+	background-image: url("../img/HINDI/divine_kohinoor.jpg");
+}
+
+#jonita_pegsheg{
+	background-image: url("../img/HINDI/jonita_peg_shegOrg.jpg");
+}
+
+#emiway_machayenge{
+	background-image: url("../img/HINDI/emiway_machayenge.jpg");
+}
+
+#raftaar_sheikhchilli{
+	background-image: url("../img/HINDI/raftaar_sheikh_chilli.jpg");
+}
+
+#badshah_pagal{
+	background-image: url("../img/HINDI/badshah_pagalOrg.jpg");
+}
+
+#teen_peg{
+	background-image: url("../img/HINDI/teen_peg.jpg");
+}
+
+#bohemia_samebeef{
+	background-image: url("../img/HINDI/same_beef.jpg");
+}
+
+#sawaar_loon{
+	background-image: url("../img/HINDI/sawaar_loon.jpg");
+}
+
+
+/*second page images*****************************************************************/
+
+/*alan walker main image*/
+#playlist-img{
+	background-image: url("../img/playlist_songs/playlist_img.jpg");
+
+}
+
+/*song image*/
+#song-title-img{
+	background-image: url("../img/playlist_songs/faded.png");
+}
+
+/*bottom music player song image****************************************************/
+#current-song-img{
+	background-image: url("../img/top_four_images/eminemOrg.jpg");
+}
+
+/*Top Navbar images************************************************************/
+#search-field input{
+	background-image: url("../img/icons/search-solid.svg");
+}

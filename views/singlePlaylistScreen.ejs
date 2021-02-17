@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<!--Font- Awesome icons-->
+	<script src="https://kit.fontawesome.com/ffb02f4f69.js" crossorigin="anonymous"></script>
+	
+	<!--To use Google fonts-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,800;0,900;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/singlePlaylistScreen.css">
+	<link rel="stylesheet" href="css/bottomMusicPlayer.css">
+	<link rel="stylesheet" href="css/top_navbar.css">
+	<link rel="stylesheet" href="css/left_navbar.css">
+	<link rel="stylesheet" href="css/general_css.css">
+	<link rel="stylesheet" href="css/images_css.css">
+	<link rel="stylesheet" href="css/singlePlaylistScreenMediaQueries.css">
+	<link rel="stylesheet" href="css/bottomMusicPlayerMediaQueries.css">
+	<link rel="stylesheet" href="css/top_navbarMediaQueries.css">
+	<link rel="stylesheet" href="css/colorTheme.css">
+	<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+	<script src="js/themeSelector.js"></script>
+	<title>Sounds Good!!!</title>
+</head>
+<body>
+	
+	
+	<div id="main-section">
+
+		<section id="left-right">
+			<section id="left-section">
+
+				<div id="logo-id">
+					<a href="/">
+						<div id="logo-img">
+							<img src="img/logo/logo.png" alt="">
+						</div>
+					</a>
+				</div>	
+	
+				<div id="vertical-navbar">
+					
+						<ul>
+							<div>
+								<i class="fas fa-home"></i>
+								<p>Home</p>
+							</div>	
+						</ul>
+	
+						<ul>
+							<div>
+								<i class="fas fa-hand-sparkles"></i>
+								<p>New Releases</p>
+							</div>	
+						</ul>
+	
+						<ul>
+							<div>
+								<i class="fas fa-chart-line"></i>
+								<p>Top Charts</p>
+							</div>	
+						</ul>
+	
+						<ul>
+							<div>
+								<i class="fas fa-broadcast-tower"></i>
+								<p>Radio</p>
+							</div>	
+						</ul>
+	
+						<ul>
+							<div>
+								<i class="far fa-thumbs-up"></i>
+								<p>Most Liked</p>
+							</div>	
+						</ul>
+	
+						<ul>
+							<div>
+								<i class="fas fa-rss"></i>
+								<p>Feeds</p>
+							</div>	
+						</ul>
+				
+						<ul>
+							<div>
+								<i class="far fa-heart"></i>
+								<p>Favourites</p>
+							</div>	
+						</ul>
+						
+						<ul>
+							<div>
+								<i class="fas fa-history"></i>
+								<p>History</p>
+							</div>	
+						</ul>
+				</div>
+	
+			</section>
+
+			<section id="right-section">
+
+				<section id="navbar-section">
+					<div id="inner-navbar-div">
+	
+						<form action="" id="search-field">
+							<input type="text" placeholder="Search Here..">
+						</form>
+	
+						<div id="profile-notification">
+							<input type="checkbox" id="switch" /><label for="switch">Theme</label> 
+							<p>Theme</p>
+							<img src="img/icons/notification_white.png" class="notification-bell" alt="">
+							<img src="img/profile_image/profile_image.jpeg" alt="" id="profile-pic-id">
+						</div>
+						
+					</div>
+				</section>
+	
+				<section id="below-navbar">
+					
+					<div id="playlist-image-div">
+
+						
+						<div id="playlist-img"></div>
+
+						<div id="playlist-info">
+							<h1>Alan Walker</h1>
+							<p id="p1">Norwegian DJ</p>
+							<p id="p2">Alan Olav Walker is an English-Norwegian DJ and record producer. In 2015, Walker received international acclaim after releasing the single "Faded", which received platinum certifications in 14 countries. In 2020, he was ranked 26th on DJ Mag. He released his debut studio album, Different World, in 2018.Walker was originally known as "DJ Walkzz" or "Walkzz" when he started out. He ended up using his real name, Alan Walker, as his artist name after signing up with a record label. He designed his logo in 2013, a symbol consisting of intertwined letters "A" and "W" which are the initials of his name. </p>
+							<div id="buttons-like-favourite">
+								<button onclick="location.href='#bottom-music-player';"><p>Play All</p></button>
+								<a href="#" class=""><i class="far fa-bookmark ">
+									<span class="tooltiptext" id="bookmark-tooltip">Bookmark</span>
+								</i></a>
+								<a href="#" class=""><i class="fas fa-share-alt">
+									<span class="tooltiptext" id="share-tooltip">Share</span>
+								</i></i></a>
+							</div>
+						</div>
+					</div>
+					
+					<div id="playlist-songs-div">
+						<ul>
+							<div class="playlist-individual-class song-heading">
+								<p class="p1">#</p>
+								<p class="p2">TITLE</p>
+								<p class="p3">Artist</p>
+								<p class="p4">Duration</p>
+								<div class="p5">
+									<i class="fas fa-heart"></i>
+								</div>
+								<div class="p6">
+									<i class="fas fa-list"></i>
+								</div>
+								
+							</div>
+						</ul>
+
+						<ul>
+							<div class="playlist-individual-class hover-prop" onclick="location.href='#bottom-music-player';">
+								<p class="p1">1</p>
+								<div id="song-title-img-div" class="p2">
+									<div id="song-title-img">
+										<i class="fa fa-play"></i>
+									</div>
+									<p>Faded</p>
+								</div>
+								
+								<p class="p3">Alan Walker</p>
+								<p class="p4">3.14</p>
+								<div class="p5">
+									<i class="fas fa-heart">
+										<span class="tooltiptext" id="like-song-tooltip">Like</span>
+									</i>
+								</div>
+								<div class="p6">
+									<i class="fas fa-list">
+										<span class="tooltiptext" id="add-tooltip">Add to playlist</span>
+									</i>
+								</div>
+							</div>
+						</ul>
+
+						<ul>
+							<div class="playlist-individual-class hover-prop" onclick="location.href='#bottom-music-player';">
+								<p class="p1">2</p>
+								<div id="song-title-img-div" class="p2">
+									<div id="song-title-img">
+										<i class="fa fa-play"></i>
+									</div>
+									<p>Faded</p>
+								</div>
+								
+								<p class="p3">Alan Walker</p>
+								<p class="p4">3.14</p>
+								<div class="p5">
+									<i class="fas fa-heart">
+										<span class="tooltiptext" id="like-song-tooltip">Like</span>
+									</i>
+								</div>
+								<div class="p6">
+									<i class="fas fa-list">
+										<span class="tooltiptext" id="add-tooltip">Add to playlist</span>
+									</i>
+								</div>
+							</div>
+						</ul>
+
+						<ul>
+							<div class="playlist-individual-class hover-prop" onclick="location.href='#bottom-music-player';">
+								<p class="p1">3</p>
+								<div id="song-title-img-div" class="p2">
+									<div id="song-title-img">
+										<i class="fa fa-play"></i>
+									</div>
+									<p>Faded</p>
+								</div>
+								
+								<p class="p3">Alan Walker</p>
+								<p class="p4">3.14</p>
+								<div class="p5">
+									<i class="fas fa-heart">
+										<span class="tooltiptext" id="like-song-tooltip">Like</span>
+									</i>
+								</div>
+								<div class="p6">
+									<i class="fas fa-list">
+										<span class="tooltiptext" id="add-tooltip">Add to playlist</span>
+									</i>
+								</div>
+							</div>
+						</ul>
+
+						<ul>
+							<div class="playlist-individual-class hover-prop" onclick="location.href='#bottom-music-player';">
+								<p class="p1">4</p>
+								<div id="song-title-img-div" class="p2">
+									<div id="song-title-img">
+										<i class="fa fa-play"></i>
+									</div>
+									<p>Faded</p>
+								</div>
+								
+								<p class="p3">Alan Walker</p>
+								<p class="p4">3.14</p>
+								<div class="p5">
+									<i class="fas fa-heart">
+										<span class="tooltiptext" id="like-song-tooltip">Like</span>
+									</i>
+								</div>
+								<div class="p6">
+									<i class="fas fa-list">
+										<span class="tooltiptext" id="add-tooltip">Add to playlist</span>
+									</i>
+								</div>
+							</div>
+						</ul>
+
+						<ul>
+							<div class="playlist-individual-class hover-prop" onclick="location.href='#bottom-music-player';">
+								<p class="p1">5</p>
+								<div id="song-title-img-div" class="p2">
+									<div id="song-title-img">
+										<i class="fa fa-play"></i>
+									</div>
+									<p>Faded</p>
+								</div>
+								
+								<p class="p3">Alan Walker</p>
+								<p class="p4">3.14</p>
+								<div class="p5">
+									<i class="fas fa-heart">
+										<span class="tooltiptext" id="like-song-tooltip">Like</span>
+									</i>
+								</div>
+								<div class="p6">
+									<i class="fas fa-list">
+										<span class="tooltiptext" id="add-tooltip">Add to playlist</span>
+									</i>
+								</div>
+							</div>
+						</ul>
+
+						<ul>
+							<div class="playlist-individual-class hover-prop" onclick="location.href='#bottom-music-player';">
+								<p class="p1">6</p>
+								<div id="song-title-img-div" class="p2">
+									<div id="song-title-img">
+										<i class="fa fa-play"></i>
+									</div>
+									<p>Faded</p>
+								</div>
+								
+								<p class="p3">Alan Walker</p>
+								<p class="p4">3.14</p>
+								<div class="p5">
+									<i class="fas fa-heart">
+										<span class="tooltiptext" id="like-song-tooltip">Like</span>
+									</i>
+								</div>
+								<div class="p6">
+									<i class="fas fa-list">
+										<span class="tooltiptext" id="add-tooltip">Add to playlist</span>
+									</i>
+								</div>
+							</div>
+						</ul>
+
+						<ul>
+							<div class="playlist-individual-class hover-prop" onclick="location.href='#bottom-music-player';">
+								<p class="p1">7</p>
+								<div id="song-title-img-div" class="p2">
+									<div id="song-title-img">
+										<i class="fa fa-play"></i>
+									</div>
+									<p>Faded</p>
+								</div>
+								
+								<p class="p3">Alan Walker</p>
+								<p class="p4">3.14</p>
+								<div class="p5">
+									<i class="fas fa-heart">
+										<span class="tooltiptext" id="like-song-tooltip">Like</span>
+									</i>
+								</div>
+								<div class="p6">
+									<i class="fas fa-list">
+										<span class="tooltiptext" id="add-tooltip">Add to playlist</span>
+									</i>
+								</div>
+							</div>
+						</ul>
+
+						<ul>
+							<div class="playlist-individual-class hover-prop" onclick="location.href='#bottom-music-player';">
+								<p class="p1">8</p>
+								<div id="song-title-img-div" class="p2">
+									<div id="song-title-img">
+										<i class="fa fa-play"></i>
+									</div>
+									<p>Faded</p>
+								</div>
+								
+								<p class="p3">Alan Walker</p>
+								<p class="p4">3.14</p>
+								<div class="p5">
+									<i class="fas fa-heart">
+										<span class="tooltiptext" id="like-song-tooltip">Like</span>
+									</i>
+								</div>
+								<div class="p6">
+									<i class="fas fa-list">
+										<span class="tooltiptext" id="add-tooltip">Add to playlist</span>
+									</i>
+								</div>
+							</div>
+						</ul>
+
+						<ul>
+							<div class="playlist-individual-class hover-prop" onclick="location.href='#bottom-music-player';">
+								<p class="p1">9</p>
+								<div id="song-title-img-div" class="p2">
+									<div id="song-title-img">
+										<i class="fa fa-play"></i>
+									</div>
+									<p>Faded</p>
+								</div>
+								
+								<p class="p3">Alan Walker</p>
+								<p class="p4">3.14</p>
+								<div class="p5">
+									<i class="fas fa-heart">
+										<span class="tooltiptext" id="like-song-tooltip">Like</span>
+									</i>
+								</div>
+								<div class="p6">
+									<i class="fas fa-list">
+										<span class="tooltiptext" id="add-tooltip">Add to playlist</span>
+									</i>
+								</div>
+							</div>
+						</ul>
+
+						<ul>
+							<div class="playlist-individual-class hover-prop" onclick="location.href='#bottom-music-player';">
+								<p class="p1">10</p>
+								<div id="song-title-img-div" class="p2">
+									<div id="song-title-img">
+										<i class="fa fa-play"></i>
+									</div>
+									<p>Faded</p>
+								</div>
+								
+								<p class="p3">Alan Walker</p>
+								<p class="p4">3.14</p>
+								<div class="p5">
+									<i class="fas fa-heart">
+										<span class="tooltiptext" id="like-song-tooltip">Like</span>
+									</i>
+								</div>
+								<div class="p6">
+									<i class="fas fa-list">
+										<span class="tooltiptext" id="add-tooltip">Add to playlist</span>
+									</i>
+								</div>
+							</div>
+						</ul>
+
+					</div>
+
+				</section> <!--Below navbar-->
+	
+			</section>
+
+		</section>
+
+		<section id="bottom-music-player">
+
+			<div id="left-content-container" class = "bottom-class">
+				<div id="left-content-container-child">
+					<div id="current-song-img"></div>
+
+					<div id="current-song-info">
+
+						<div id="song-name-artist">
+							<p id="p1" class="fontClass textColorWhite">I'm Not Afraid</p>
+							<p id="p2" class="fontClass textColorWhite">Eminem</p>
+						</div>
+						<div id="song-like-share">
+							<!--like the song-->
+							<i class="far fa-heart">
+								<span class="tooltiptext" id="like-tooltip">Like</span>
+							</i>
+							<!--Dislike-->
+							<i class="far fa-thumbs-down">
+								<span class="tooltiptext" id="dislike-tooltip">Dislike</span>
+							</i>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="center-content" class = "bottom-class">
+				<div id="music-player-controls">
+					<div id="play-pause">
+
+						<!--Shuffle-->
+						<a href=""><i class="fas fa-random shadow-hover">
+							<span class="tooltiptext" id="shuffle-tooltip">Shuffle</span>
+						</i></a>
+
+						<!--backward-->
+						<a href=""><i class="fas fa-backward shadow-hover">
+							<span class="tooltiptext" id="backward-tooltip">Backward</span>
+						</i></a>
+
+						<!--pause-->
+						<a href=""><i class="far fa-pause-circle shadow-hover">
+							<span class="tooltiptext" id="play-pause-tooltip">Pause</span>
+						</i></a>
+
+						<!--forward-->
+						<a href=""><i class="fas fa-forward shadow-hover">
+							<span class="tooltiptext" id="forward-tooltip">Forward</span>
+						</i></a>
+
+						<!--repeat-->
+						<a href=""><i class="fas fa-redo shadow-hover">
+							<span class="tooltiptext" id="redo-tooltip">Play Again</span>
+						</i></a>
+
+					</div>
+					<div id="sound-progress">
+						<p>2:00</p>
+						<input type="range" min="1" max="100" value="50">
+						<p>4:00</p>
+					</div>
+				</div>
+			</div>
+
+			<div id="right-content" class="bottom-class">
+				<div id="right-div-inner">
+					<a href="">
+						<i class="fas fa-sliders-h">
+							<span class="tooltiptext" id="eq-tooltip">Equalizer</span>
+						</i>
+					</a>
+					<a href="">
+						<i class="fas fa-volume-down">
+							<span class="tooltiptext" id="vol-down-tooltip">Volume Down</span>
+						</i>
+					</a>
+					
+					
+					<a href="">
+						<input type="range" min="1" max="100" value="50">
+					</a>
+
+					<a href="">
+						<i class="fas fa-volume-up">
+							<span class="tooltiptext" id="vol-up-tooltip">Volume Up</span>
+						</i>
+					</a>
+					
+					<a href="">
+						<i class="fas fa-eye-slash">
+							<span class="tooltiptext" id="hide-tooltip">Hide</span>
+						</i>
+					</a>
+
+				</div>
+			</div>
+		</section>
+
+		
+
+		
+	</div>
+		
+	
+	
+</body>
+</html>

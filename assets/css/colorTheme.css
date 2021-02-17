@@ -1,0 +1,232 @@
+
+:root{
+	--all-text-colors: white;
+	--top-navbar-bkg-color: #342E2E;
+	
+	--left-navbar-bkg-color: #212121;
+	--left-navbar-icons-color:white;
+	--left-navbar-on-hover: #383838;
+
+	--right-section-bkg-color: #342E2E;
+
+	/*main page*/
+	--top-four-images-text-heading: white;	
+	--secondary-headings: white;
+	--main-page-three-dots: white;
+	--generes-bkg-color: black;
+	--same-color: white;	
+	--negative-color: white;
+
+	/*second page*/
+	--sec-main-img-color: #166d3b;
+	--sec-main-img-sec-color: black;
+	--playlist-songs-color: black;
+
+	/*bottom music player*/
+	--bottom-music-player-bkg-color: #2d3436;
+	--bottom-music-player-gradient: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+}
+
+[data-theme="light"]{
+	--all-text-colors: black;
+	--top-navbar-bkg-color: #D0ECF7;
+	--left-navbar-bkg-color:#ffffff;
+	--left-navbar-icons-color:black;
+	--left-navbar-on-hover: #A1D9EF;
+	
+	--right-section-bkg-color: #F5F9FB;
+
+	--top-four-images-text-heading: #650D88; 
+	--secondary-headings: #650D88;
+	--main-page-three-dots: black;
+
+	--generes-bkg-color: #D0ECF7;
+	--same-color: white;
+	--negative-color: black;
+
+	/*second page*/
+	--sec-main-img-color: #abe9cd;
+	--sec-main-img-sec-color: #3eadcf;
+	--playlist-songs-color: #D0ECF7;
+
+	/*bottom music player*/
+	--bottom-music-player-bkg-color: #63a4ff;
+	--bottom-music-player-gradient: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+}
+
+
+/*All text colors*/
+p, h1,span{
+	color: var(--all-text-colors);
+}
+
+/*Top Navbar*/
+#navbar-section{
+	background-color:var(--top-navbar-bkg-color);
+}
+/*bell notification*/
+/* .notification-bell{
+	color: var(--secondary-headings);
+} */
+
+
+/*Left Section*/
+#left-section{
+	background-color: var(--left-navbar-bkg-color); 
+}
+#vertical-navbar i.fa-home, i.fa-hand-sparkles, i.fa-chart-line, i.fa-broadcast-tower, i.fa-thumbs-up, i.fa-rss, i.fa-heart, i.fa-history{
+	color: var(--left-navbar-icons-color);
+}
+
+/*menu items on hover*/
+#vertical-navbar div:hover{
+	background-color: var(--left-navbar-on-hover);
+}
+
+/*vertical navbar text*/
+#vertical-navbar p{
+	color: var(--secondary-headings);
+}
+
+
+/*Main page*/
+
+/*main page background color*/
+#right-section{
+	background-color: var(--right-section-bkg-color); 
+}
+
+/*top 4 text*/
+#top-four-images-text h1{
+	color: var(--top-four-images-text-heading);
+}
+
+/*secondary font*/
+.secondary-font{
+	color: var(--secondary-headings);
+}
+
+/*main page 3 dots*/
+.three-dots i.fa-ellipsis-v{
+	color: var(--main-page-three-dots);
+}
+
+/*main page LP text negative color*/
+#main-image-div p{
+	color: var(--same-color);
+}
+
+
+/*generes boxes*/
+.generes-small-divs{
+	background-color: var(--generes-bkg-color);
+}
+
+/*tooltip contents*/
+.front-list-tooltip{
+	background-color: var(--top-navbar-bkg-color);
+}
+
+.front-list-tooltip i.fa-share, .front-list-tooltip i.fa-heart, .front-list-tooltip i.fa-list, .front-list-tooltip i.fa-chevron-right{
+	color: var(--all-text-colors);
+	
+}  
+
+.front-list-tooltip li:hover{
+	background-color: var(--left-navbar-on-hover);
+}
+
+/*SECOND PAGE*/
+
+/*main img gradient*/
+#playlist-image-div{
+	background-color: var(--sec-main-img-color);
+	background-image: linear-gradient(147deg, var(--sec-main-img-color) 0%, var(--sec-main-img-sec-color) 74%);
+	
+
+}
+
+/*playlist songs color*/
+#playlist-songs-div{
+	background-color: var(--playlist-songs-color); 	
+}
+
+#playlist-info h1{
+	color: var(--secondary-headings);
+}
+
+.hover-prop:hover{
+
+	background-color: var(--left-navbar-on-hover);
+
+}
+
+/*bottom music player*/
+#bottom-music-player{
+	
+	background-color: var(--bottom-music-player-bkg-color);
+	background-image: var(--bottom-music-player-gradient);
+}
+
+/*thumbs down negative color*/
+#song-like-share i.fa-thumbs-down{
+	color: var(--negative-color);
+}
+
+/*music player icons*/
+#play-pause i.fa-random,
+#play-pause i.fa-forward,
+#play-pause i.fa-backward, 
+#play-pause i.fa-pause-circle, 
+#play-pause i.fa-redo, 
+#right-div-inner i.fa-sliders-h, 
+#right-div-inner i.fa-volume-down,
+#right-div-inner i.fa-volume-up,
+#right-div-inner i.fa-eye-slash{
+	color: var(--all-text-colors);
+}
+
+
+/*toogle switch*/
+input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 35px;
+	height: 10px;
+	background: grey;
+	display: block;
+	border-radius: 20px;
+	position: relative;
+	margin-right: 5px;
+}
+
+label:after {
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: 5px;
+	width: 15px;
+	height: 15px;
+	background: #fff;
+	border-radius: 10px;
+	transition: 0.3s;
+}
+
+input:checked + label {
+	background: #83EAF1;
+}
+
+input:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+
+label:active:after {
+	width: 30px;
+}

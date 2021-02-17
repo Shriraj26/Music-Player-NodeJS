@@ -1,0 +1,215 @@
+
+/****************************************************************************************************/
+
+#below-navbar{
+	padding: 16px;
+	height: auto;
+	
+}
+
+/*Playlist highlight image container********************************************/
+#playlist-image-div{
+	height: 50vh;
+	display: flex;
+	flex-direction: row;
+}
+
+#playlist-img{
+	height: 100%;
+	width: 30%;
+	background-size: cover;
+	background-position: center;
+}
+
+#playlist-info{
+	height: 100%;
+	width: 70%;
+	margin-left: 16px;
+	margin-right: 16px;
+	position: relative;
+}
+
+#playlist-info h1{
+	font-size: 4em;
+}
+
+#playlist-info #p1{
+	font-size: 1.5em;
+}
+
+#playlist-info #p2{
+	margin-top: 10px;
+	font-size: 1em;
+}
+
+#buttons-like-favourite{
+	display: flex;
+	flex-direction: row;
+	justify-content: baseline;
+	margin-top: 16px;
+	position: absolute;
+	bottom: 15%;
+}
+
+#buttons-like-favourite button{
+	height: 50px;
+	width: 100px;
+	background-color: #F9484A;
+	cursor:pointer;
+	outline:none;
+	border:none;
+	border-radius: 10px;
+	color: white;
+	font-weight: 800;
+	font-size: 1.2em;
+}
+
+#buttons-like-favourite button:hover{
+	box-shadow: 0px 0px 10px rgb(255, 175, 100);
+}
+
+
+#buttons-like-favourite i.fa-bookmark, #buttons-like-favourite i.fa-share-alt{
+	color: white;
+	font-size: 50px;
+	margin-left: 16px;
+}
+
+#buttons-like-favourite i.fa-bookmark:hover, #buttons-like-favourite i.fa-share-alt:hover{
+	text-shadow: 0px 0px 10px rgba(255,255,100,1);
+	color: greenyellow;
+}
+#buttons-like-favourite i.fa-bookmark:hover{
+	color: skyblue;
+}
+
+#bookmark-tooltip, #share-tooltip{
+	font-size: 0.3em;
+	font-weight: 500;
+	margin-top: 2px;
+}
+#buttons-like-favourite i.fa-bookmark:hover #bookmark-tooltip, #buttons-like-favourite i.fa-share-alt:hover #share-tooltip{
+	visibility: visible;
+}
+
+/*Playlist class*************************************/
+#playlist-songs-div{
+	/* background-color: #212121; 	 */
+	margin-top: 16px;
+}
+
+.hover-prop:hover{
+	background-color: #383838;
+	cursor: pointer;
+}
+
+.hover-prop:hover > #song-title-img-div>  #song-title-img{
+	opacity: 0.8;
+}
+
+.hover-prop:hover > #song-title-img-div>  #song-title-img > i.fa-play{
+	display: flex;
+}
+
+#like-song-tooltip{
+	font-size: 0.5em;
+	width: 50px;	
+}
+
+#add-tooltip{
+	right: 10%;
+	font-size: 0.7em;
+}
+
+.hover-prop i.fa-heart:hover > #like-song-tooltip{
+	visibility: visible;
+}
+
+.hover-prop i.fa-list:hover > #add-tooltip{
+	visibility: visible;
+}
+
+#song-title-img-div{
+	display: flex;
+	flex-direction: row;
+	align-items: center; 
+}
+
+#song-title-img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#song-title-img i.fa-play{
+	display: none;
+	color: red;
+	font-size: 1em;	
+}
+
+
+#song-title-img{
+	background-size: cover;
+	background-position: center;
+	height: 50px;
+	width: 50px;
+}
+
+#song-title-img-div p{
+	margin-left: 16px;
+} 
+
+.playlist-individual-class{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-bottom: 1px dotted grey;
+	padding: 10px;
+}
+
+.playlist-individual-class .p1{
+	width: 5%;
+}
+.playlist-individual-class .p2{
+	width: 30%;
+}
+.playlist-individual-class .p3{
+	width: 25%;
+}
+.playlist-individual-class .p4{
+	width: 20%;
+}
+.playlist-individual-class .p5, .playlist-individual-class .p6{
+	width: 10%;
+}
+
+.song-heading  i.fa-heart, .song-heading  i.fa-list{
+	display: none;
+}
+
+.song-heading p{
+	font-weight: 900;
+}
+
+.playlist-individual-class .p5 i.fa-heart, .playlist-individual-class .p5 i.fa-list{
+	font-size: 1.5em;
+}
+
+.playlist-individual-class .p5 i.fa-heart:hover{
+	color: red;
+}
+
+.playlist-individual-class .p6 i.fa-list:hover{
+	color: gold;
+}
+
+.playlist-individual-class .p6 i.fa-list{
+	color: white;
+}
+
+
+
+
+
+
+
